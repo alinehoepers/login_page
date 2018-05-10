@@ -33,10 +33,10 @@ export default class Login extends Component {
           <FormGroup controlId="email" bsSize="large">
             <ControlLabel>Sigla</ControlLabel>
             <FormControl
-              autoFocus
-              type="email"
-              value={this.state.email}
-              onChange={this.handleChange}
+             autoFocus
+             type="email"
+             value={this.state.email}
+             onChange={this.handleChange}
             />
           </FormGroup>
           <FormGroup controlId="password" bsSize="large">
