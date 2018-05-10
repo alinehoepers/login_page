@@ -3,7 +3,7 @@
     .Login form {
       
       margin: 0 auto;
-      max-width: 200px;
+      max-width: 300px;
         }
    
     #buttonLogin {
@@ -17,15 +17,22 @@
       font-size: 16px;
      }
 
-     .Login {
-      
-      width: 250px;
-      height:255px;
-      box-shadow:10px 10px 5px grey;
-      border-radius: 10px;
-      vertical-align: center;
-          
-     }
+    h1 {
+      text-align: center;
+      margin: 10px;
+      padding: 10px;
+      font-family: "Open Sans", sans-serif;
+      font-size: 40px;
+    }
+
+    h2{
+      text-align: center;
+      margin: 10px;
+      padding: 10px;
+      font-family: "Open Sans", sans-serif;
+      font-size: 20px;
+
+    }
 
 
   

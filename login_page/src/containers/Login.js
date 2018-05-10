@@ -25,12 +25,16 @@ export default class Login extends Component {
   handleSubmit = event => {
     event.preventDefault();
   }
-
+  
   render() {
     return (
-      <div className="Login">
+     
+      <div className="Login" >
+      <h1>Bem vindo!</h1>
+      <h2>Por favor, insira sua sigla e senha</h2>
+     
         <form onSubmit={this.handleSubmit}>
-          <FormGroup controlId="email" bsSize="large">
+          <FormGroup controlId="email" bsSize="large" >
             <ControlLabel>Sigla</ControlLabel>
             <FormControl
              autoFocus
